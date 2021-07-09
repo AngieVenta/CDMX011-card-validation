@@ -1,0 +1,135 @@
+body{
+    background: #F0F0F0;
+    }
+  
+  header{
+    background-color: rgba(70, 1, 77, 0.8);
+    font-family: 'Comfortaa', cursive;
+    color: #FFFFFF; 
+    line-height: 64px;
+    font-size: 20px;
+     
+    }
+  
+  .contenedorP{
+    position: relative;
+    left: 20px; 
+  }
+  .boletoimg{
+    position:relative;
+    top: -499px;
+    left: 870px;
+    border: 0px;
+    width: 400px;
+  }
+  
+  .ticketimg{
+    width: 100%;
+  }
+  .metodoTarjeta{
+    position: relative;
+    left: 15px;
+    background-color: #FAF8F8;
+    width: 280px;
+    height: 60px;
+    text-align: center;
+    line-height: 65px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 34px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .instrucciones{
+    position: relative;
+    left: 300px;
+    top: -70px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+
+  }
+
+  .namel{
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+
+  .namei{
+    width: 50%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    outline: 0px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .cardl{
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .cardi{
+    width: 50%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    outline: 0px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .buttonvalidar{
+    position: relative;
+    left: 250px;
+  }
+
+  .buttonv{
+    border-radius: 4px;
+    background-color: #B00F04;
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    padding: 20px 25px;
+    width: 225px;
+    cursor: pointer;
+    box-shadow: 0 9px rgb(172, 172, 172);
+
+  }
+
+  .buttonv:hover {background-color: #e40606}
+
+  .buttonv:active {
+    background-color: #16c01c;
+    box-shadow: 0 4px rgb(156, 156, 156);
+    transform: translateY(3px);
+  }
+
+  #nombre{
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+  }
+
+  #resultado{
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    color: rgb(172, 1, 1);
+  }
+
+  #validornot{
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+  }
+
+  footer{
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    text-align: center;
+  }

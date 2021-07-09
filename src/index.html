@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>MÉTODO DE PAGO</h1>
+    </header>
+    <main>
+      <h3 class="metodoTarjeta">Crédito/Débito</h3>
+      <div class = "contenedorP">
+        <div class= "instrucciones"><p>Ingresa los datos solicitados: </p></div>
+        <form>
+          <label class ="namel" for= "Username">Nombre de tarjetahabiente: </label>
+          <br> 
+          <br> 
+          <input type = "text" class= "namei" id = "Username" name="Username" placeholder="Escriba el nombre completo del titular">
+          <br>
+          <br>
+          <br>
+          <label class ="cardl" for = "Cardnumber">Número de tarjeta: </label>
+          <br>
+          <br>
+          <input type="text" class= "cardi" id="Cardnumber" name="Cardnumber" placeholder="Escribe el número de la tarjeta" required>
+        </form>
+        <br>
+        <br>
+        <br>
+        <div class= "buttonvalidar"><button type="button" class="buttonv" id= "buttonv">Validar tarjeta</button></div>
+        <br>
+        <h2><span id="nombre">  </span> <span id="resultado"></span> <span id= "validornot"></span> </h2>
+      </div>
+      <div class="boletoimg">
+        <a href="https://imgbb.com/"><img class="ticketimg" src="https://i.ibb.co/fdV40yB/Frame-2boleto-1.jpg" alt="Frame-2boleto-1" border="0"></a>
+      </div>
+    </main>
+    <footer>
+      <h2> Gracias por comprar con nosotros. </h2>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
