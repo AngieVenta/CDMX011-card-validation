@@ -13,20 +13,20 @@
     </header>
     <main>
       <h3 class="metodoTarjeta">Crédito/Débito</h3>
-      <div class = "contenedorP">
+      <div class = "contenedorP" >
         <div class= "instrucciones"><p>Ingresa los datos solicitados: </p></div>
-        <form>
-          <label class ="namel" for= "Username">Nombre de tarjetahabiente: </label>
+        <form id="theForm">
+          <label class ="namel" for= "username">Nombre de tarjetahabiente: </label>
           <br> 
           <br> 
-          <input type = "text" class= "namei" id = "Username" name="Username" placeholder="Escriba el nombre completo del titular">
+          <input type = "text" class= "namei" id = "username" name="username" placeholder="Escriba el nombre completo del titular">
           <br>
           <br>
           <br>
-          <label class ="cardl" for = "Cardnumber">Número de tarjeta: </label>
+          <label class ="cardl" for = "cardnumber">Número de tarjeta: </label>
           <br>
           <br>
-          <input type="text" class= "cardi" id="Cardnumber" name="Cardnumber" placeholder="Escribe el número de la tarjeta" required>
+          <input type="text" class= "cardi" id="cardnumber" name="cardnumber" minlength="12"  maxlength="16" placeholder="Escribe el número de la tarjeta" required>
         </form>
         <br>
         <br>
@@ -36,7 +36,7 @@
         <h2><span id="nombre">  </span> <span id="resultado"></span> <span id= "validornot"></span> </h2>
       </div>
       <div class="boletoimg">
-        <a href="https://imgbb.com/"><img class="ticketimg" src="https://i.ibb.co/fdV40yB/Frame-2boleto-1.jpg" alt="Frame-2boleto-1" border="0"></a>
+        <img class = "ticketimg" src="https://i.ibb.co/mFnqHsz/Frame-2boleto-1.jpg" alt="Imagen del boleto que decidió comprar el usuario" border="0">
       </div>
     </main>
     <footer>

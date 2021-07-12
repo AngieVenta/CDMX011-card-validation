@@ -13,11 +13,14 @@ body{
   
   .contenedorP{
     position: relative;
-    left: 20px; 
+    left: 20px;
+    width: 60%; 
+    height: 600px;    
   }
+
   .boletoimg{
     position:relative;
-    top: -499px;
+    top: -700px;
     left: 870px;
     border: 0px;
     width: 400px;
@@ -45,7 +48,7 @@ body{
     top: -70px;
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
-
+    width: 50%;
   }
 
   .namel{
@@ -56,7 +59,7 @@ body{
   }
 
   .namei{
-    width: 50%;
+    width: 85%;
     border: none;
     background: transparent;
     border-bottom: 2px solid black;
@@ -73,7 +76,7 @@ body{
   }
 
   .cardi{
-    width: 50%;
+    width: 85%;
     border: none;
     background: transparent;
     border-bottom: 2px solid black;
@@ -86,6 +89,7 @@ body{
   .buttonvalidar{
     position: relative;
     left: 250px;
+    width: 46%;
   }
 
   .buttonv{
